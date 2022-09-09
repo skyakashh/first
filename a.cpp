@@ -8,8 +8,8 @@ int main(){
 	cin.tie(NULL);
 	cin >> t;
 	while(t--){
-		long long n,t;
-		cin>>n; t=n;
+		long long n,f;
+		cin>>n; f=n;
 		for(int i=0;i<8;i++) n*=t;
 		cout<<n;
 }
